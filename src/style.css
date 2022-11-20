@@ -1,4 +1,10 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+* {
+  border: dashed red 1px;
+}
+
+p {
+  margin: 0px;
+}
 
 .backgroundColor {
   background-color: green;
@@ -8,28 +14,37 @@
   margin: auto;
   margin-top: 100px;
   background-color: white;
-  width: 25%;
+  width: 350px;
   height: 500px;
   border-radius: 1%;
 }
 
 .topSuit {
-  padding-left: 30px;
-  padding-top: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 60px;
 }
 
 .bottomSuit {
-  padding-right: 30px;
-  padding-bottom: 30px;
 }
 
 .suitAppeared {
-  font-size: 350%;
-  color: red;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.suitAppeared2 {
+  font-size: 50px;
+  margin: 0px;
+  display: flex;
+  justify-content: end;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .numberAppeared {
-  padding-top: 10px;
-  font-size: 900%;
+  font-size: 120px;
   text-align: center;
+  padding-top: 105px;
+  padding-bottom: 105px;
 }
